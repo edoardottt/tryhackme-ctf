@@ -20,7 +20,7 @@ What is the name of the cookie used for authentication?
 - Figure out how to bypass the authentication.
 What is the value of Santa's cookie?
 
-	- Decode your cookie value from hexadecimal to Text. I used [this](https://cryptii.com/pipes/hex-decoder). Then change your username to `Santa`. You should have something like: `************************************************************************************************d65223a2253616e7461227d`
+	- Decode your cookie value from hexadecimal to Text. I used [this](https://cryptii.com/pipes/hex-decoder). Then change your username to `santa`. You should have something like: `************************************************************************************************d65223a2253616e7461227d`
 	- Now, if you change the previous cookie with this new one and refresh the page you will see some changes...
 
 - Now that you are the santa user, you can re-activate the assembly line!
