@@ -1,6 +1,6 @@
 ### Notes, code, writeups, scribbles, drafts...
 
-### <a href="https://tryhackme.com/p/edoardottt"><img src="https://tryhackme-badges.s3.amazonaws.com/edoardottt.png" alt="TryHackMe"></a>
+### [tryhackme/edoardottt](https://tryhackme.com/p/edoardottt)
 
 ![thmlogo](https://github.com/edoardottt/tryhackme-ctf/blob/main/IMAGES/THMlogo.png)
 
