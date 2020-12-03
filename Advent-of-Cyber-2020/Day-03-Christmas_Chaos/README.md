@@ -50,6 +50,8 @@
 
 	- You can see one of the result rows has different length in respect to the others... Let's try with that login credentials!
 
+	- Turn off proxy with FoxyProxy
+	
 	- It works!
 
 	- `THM{88**fab9******84751**********d1a}`
