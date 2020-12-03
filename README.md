@@ -10,3 +10,4 @@
   - [nmap](https://nmap.org/)
   - [pentestmonkey](https://github.com/pentestmonkey)
   - [gobuster](https://github.com/OJ/gobuster)
+  - [Burpsuite](https://portswigger.net/burp)
