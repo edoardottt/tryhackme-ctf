@@ -6,19 +6,19 @@
 
 - Use BurpSuite to bruteforce the login form.  Use the following lists for the default credentials:
 
-| Username | Password |
-|---|---|
-| root | root |
-| admin | password |
-| user | 12345 |
+	| Username | Password |
+	|---|---|
+	| root | root |
+	| admin | password |
+	| user | 12345 |
 
-Use the correct credentials to log in to the Santa Sleigh Tracker app. Don't forget to turn off Foxyproxy once BurpSuite has finished the attack.
+	Use the correct credentials to log in to the Santa Sleigh Tracker app. Don't forget to turn off Foxyproxy once BurpSuite has finished the attack.
 
-   - First of all make sure you're under proxy. If not, follow the instructions above (on the CTF page) to enable it if you're using AttackBox. If not, add FoxyProxy to the extensions, then create a record with options: name: `Burp` or whatever you like; Proxy type: `HTTP`; Proxy IP: `127.0.0.1`; Port: `8080`. Then save and enable it.
+	- First of all make sure you're under proxy. If not, follow the instructions above (on the CTF page) to enable it if you're using AttackBox. If not, add FoxyProxy to the extensions, then create a record with options: name: `Burp` or whatever you like; Proxy type: `HTTP`; Proxy IP: `127.0.0.1`; Port: `8080`. Then save and enable it.
 
-   - Open BurpSuite and perform a login (with random user and pass) request with the Browser.
+	- Open BurpSuite and perform a login (with random user and pass) request with the Browser.
 
-   - On the proxy tab of BurpSuite you should see a new request captured. Something like this:
+	- On the proxy tab of BurpSuite you should see a new request captured. Something like this:
 		
 		```POST /login HTTP/1.1
 		Host: <TARGET_IP>
@@ -36,22 +36,22 @@ Use the correct credentials to log in to the Santa Sleigh Tracker app. Don't for
 		username=<USERNAME>&password=<PASSWORD>
 		```
 
-   - Right click on it and click `send to Intruder`.
+	- Right click on it and click `send to Intruder`.
 
-   -  Go to Intruder tab and then on position sub-tab.
+	-  Go to Intruder tab and then on position sub-tab.
 
-   - Change the attack type from `Sniper` to `Cluster Bomb`.
+	- Change the attack type from `Sniper` to `Cluster Bomb`.
 	
-   - Make sure the <USERNAME> and the <PASSWORD> are selected with these symbols `username=§<USERNAME>§&password=§<PASSWORD>§`. If not, highlight them with the cursor and click on `Add §`.
+	- Make sure the <USERNAME> and the <PASSWORD> are selected with these symbols `username=§<USERNAME>§&password=§<PASSWORD>§`. If not, highlight them with the cursor and click on `Add §`.
 	
-   - Then switch to Payloads sub-tab and set all the payloads. We have two payloads: username and password, respectively 1 and 2. So, for instance, to set the list of possible payloads for the username, the option `Payload set` will be set to `1` and the we add to the list of payloads our three (just an example, in real we can perform thousands of requests) items. Same for password.
+	- Then switch to Payloads sub-tab and set all the payloads. We have two payloads: username and password, respectively 1 and 2. So, for instance, to set the list of possible payloads for the username, the option `Payload set` will be set to `1` and the we add to the list of payloads our three (just an example, in real we can perform thousands of requests) items. Same for password.
 
-   - Start the attack.
+	- Start the attack.
 
-   - You can see one of the result rows has different length in respect to the others... Let's try with that login credentials!
+	- You can see one of the result rows has different length in respect to the others... Let's try with that login credentials!
 
-   - It works!
+	- It works!
 
-   - `THM{88**fab9******84751**********d1a}`
+	- `THM{88**fab9******84751**********d1a}`
 
 ## see you ...
