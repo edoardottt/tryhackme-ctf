@@ -4,6 +4,10 @@
 
 		// no answer needed
 
+		You should see something this login page:
+
+		![login](https://github.com/edoardottt/tryhackme-ctf/blob/main/Advent-of-Cyber-2020/Day-03-Christmas_Chaos/login.png)
+
 - Use BurpSuite to bruteforce the login form.  Use the following lists for the default credentials:
 
 	| Username | Password |
