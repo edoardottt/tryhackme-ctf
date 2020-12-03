@@ -2,11 +2,11 @@
 
 - Deploy your AttackBox (the blue "Start AttackBox" button) and the tasks machine (green button on this task) if you haven't already. Once both have deployed, open FireFox on the AttackBox and copy/paste the machines IP (<TARGET_IP>) into the browser search bar.
 
-		// no answer needed
+	  no answer needed
 
-		You should see something this login page:
+	You should see something this login page:
 
-		![login](https://github.com/edoardottt/tryhackme-ctf/blob/main/Advent-of-Cyber-2020/Day-03-Christmas_Chaos/login.png)
+	![login](https://github.com/edoardottt/tryhackme-ctf/blob/main/Advent-of-Cyber-2020/Day-03-Christmas_Chaos/login.png)
 
 - Use BurpSuite to bruteforce the login form.  Use the following lists for the default credentials:
 
