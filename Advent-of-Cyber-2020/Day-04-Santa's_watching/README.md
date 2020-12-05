@@ -11,7 +11,7 @@ Recommended list: [big.txt](https://github.com/danielmiessler/SecLists/blob/mast
 	If you navigate with your browser to the <TARGET_IP> you should see this page:
 
 
-	![]()
+	![site](https://github.com/edoardottt/tryhackme-ctf/tree/main/Advent-of-Cyber-2020/Day-04-Santa's_watching/site.png)
 
 - Given the URL "http://shibes.xyz/api.php", what would the entire wfuzz command look like to query the "breed" parameter using the wordlist "big.txt" (assume that "big.txt" is in your current directory)
 **Note: For legal reasons, do not actually run this command as the site in question has not consented to being fuzzed!**
