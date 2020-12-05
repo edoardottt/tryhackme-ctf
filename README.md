@@ -11,3 +11,4 @@
   - [pentestmonkey](https://github.com/pentestmonkey)
   - [gobuster](https://github.com/OJ/gobuster)
   - [Burpsuite](https://portswigger.net/burp)
+  - [sqlmap](http://sqlmap.org/)
