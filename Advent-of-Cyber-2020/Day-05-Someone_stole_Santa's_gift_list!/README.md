@@ -7,7 +7,7 @@
 	
 - Visit Santa's secret login panel and bypass the login using SQLi
 
-	no answer needed
+	  no answer needed
 	
 	- Just enter in the username field `' OR true --`
 
