@@ -6,7 +6,7 @@ Recommended list: [big.txt](https://github.com/danielmiessler/SecLists/blob/mast
 
 - Deploy your AttackBox (the blue "Start AttackBox" button) and the tasks machine (green button on this task) if you haven't already. Once both have deployed, open FireFox on the AttackBox and copy/paste the machines IP (10.10.135.56) into the browser search bar.
 
-	// no answer needed
+	  no answer needed
 	
 	If you navigate with your browser to the <TARGET_IP> you should see this page:
 
