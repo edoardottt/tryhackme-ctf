@@ -29,6 +29,6 @@ Recommended list: [big.txt](https://github.com/danielmiessler/SecLists/blob/mast
 	- `wfuzz -c -z file,YYYYMMDD-list.txt -d "date=FUZZ" --hw 0 http://<TARGET_IP>/api/site-log.php`
 	- Executing this command, it will try to fuzz the date parameter, and I've inserted the --hw parameter set to 0 because I tried few times and I saw the incorrect answers contains no words.
 	- The only respone you get is from one word. Just append that word, let's say is YYYYMMDD. Go to browser and query `http://<TARGET_IP>/api/site-log.php?date=YYYYMMDD`.
-	- THM{********}
+	- `THM{********}`
 
 # see you ...
