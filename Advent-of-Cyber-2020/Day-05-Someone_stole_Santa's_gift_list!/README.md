@@ -5,6 +5,9 @@
 	- You don't have to use a directory fuzzer because you will not find a list with this word.
 	- `santapanel`
 	
+	You will see this page:
+	![santapanel](https://github.com/edoardottt/tryhackme-ctf/blob/main/Advent-of-Cyber-2020/Day-05-Someone_stole_Santa's_gift_list!/santapanel.png)
+	
 - Visit Santa's secret login panel and bypass the login using SQLi
 
 	  no answer needed
