@@ -13,3 +13,8 @@
   - [Burpsuite](https://portswigger.net/burp)
   - [sqlmap](http://sqlmap.org/)
   - [zaproxy](https://www.zaproxy.org/)
+  - [wireshark](https://www.wireshark.org/)
+  - [whois](https://en.wikipedia.org/wiki/WHOIS)
+  - [dig](https://en.wikipedia.org/wiki/Dig_(command))
+  - [ping](https://en.wikipedia.org/wiki/Ping_(networking_utility))
+  - [traceroute](https://en.wikipedia.org/wiki/Traceroute)
