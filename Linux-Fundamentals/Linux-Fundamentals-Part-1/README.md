@@ -2,7 +2,7 @@
 
 - Read the above
 
-	no answer needed
+	  no answer needed
 
 - Deploy the machine attached to this task!
 NOTE: If you have a machine open in the Welcome room (or any other room) please go to that room and terminate it before deploying the machine attached to this task. These machines are not the same, and only the one attached to this room will work.
@@ -11,7 +11,7 @@ NOTE: If you have a machine open in the Welcome room (or any other room) please 
 
 - Read the above
 
-	no answer needed
+	  no answer needed
 
 - Read the above
 
@@ -37,7 +37,7 @@ NOTE: If you have a machine open in the Welcome room (or any other room) please 
 
 - Read the above!
 
-	no answer needed
+	  no answer needed
 
 - How would you run a binary called hello using the directory shortcut . ?
 
@@ -63,4 +63,4 @@ NOTE: If you have a machine open in the Welcome room (or any other room) please 
 
 - Join the Linux Fundamentals 2 room, and continue your learning journey: https://tryhackme.com/room/linux2
 
-	no answer needed
+	  no answer needed
