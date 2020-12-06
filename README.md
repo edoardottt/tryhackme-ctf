@@ -12,3 +12,4 @@
   - [gobuster](https://github.com/OJ/gobuster)
   - [Burpsuite](https://portswigger.net/burp)
   - [sqlmap](http://sqlmap.org/)
+  - [zaproxy](https://www.zaproxy.org/)
