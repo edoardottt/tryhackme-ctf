@@ -2,7 +2,7 @@
 
 - Deploy the attached VM
 
-	no answer needed
+	  no answer needed
 
 - What networking constructs are used to direct traffic to the right application on a server?
 
@@ -26,7 +26,7 @@
 
 - If you wanted to detect which operating system the target is running on, which switch would you use?
 
-	- `-sO`
+	- `-O`
 
 - Nmap provides a switch to detect the version of the services running on the target. What is this switch?
 
@@ -155,8 +155,7 @@ What is the filename of the script which determines the underlying OS of the SMB
 
 - Read through this script. What does it depend on?
 
-	- `cat smb-os-discovery.nse`
-	- `dependencies = {"smb-brute"}`
+	- `cat smb-os-discovery.nse`, see the line `dependencies = {"smb-brute"}`
 	- `smb-brute`
 
 - Which simple (and frequently relied upon) protocol is often blocked, requiring the use of the -Pn switch?
@@ -188,7 +187,7 @@ Note: The answer will be in your scan results. Think carefully about which switc
 
 - Open Wireshark and perform a TCP Connect scan against port 80 on the target, monitoring the results. Make sure you understand what's going on.
 
-	no answer needed
+	  no answer needed
 
 - Deploy the ftp-anon script against the box. Can Nmap login successfully to the FTP server on port 21? (Y/N)
 
@@ -196,7 +195,7 @@ Note: The answer will be in your scan results. Think carefully about which switc
 
 - Read the conclusion.
 
-	no answer needed
+	  no answer needed
 
 
 
