@@ -2,7 +2,7 @@
 
 - Read the above.
 
-	no answer needed
+	  no answer needed
 
 - Deploy the machine attached to this task!
 NOTE: If you have a machine open in the Welcome room (or any other room) please go to that room and terminate it before deploying the machine attached to this task. These machines are not the same, and only the one attached to this room will work.
@@ -11,7 +11,7 @@ NOTE: If you have a machine open in the Welcome room (or any other room) please 
 
 - Read the above
 
-	no answer needed
+	  no answer needed
 
 - SSH into the server
 
@@ -20,11 +20,11 @@ NOTE: If you have a machine open in the Welcome room (or any other room) please 
 
 - Read the above
 
-	no answer needed
+	  no answer needed
 
 - Read the above
 
-	no answer needed
+	  no answer needed
 
 - How would you set nootnoot equal to 1111?
 
@@ -37,11 +37,11 @@ NOTE: If you have a machine open in the Welcome room (or any other room) please 
 
 - Read the above!
 
-	no answer needed
+	  no answer needed
 
 - Read the above.
 
-	no answer needed
+	  no answer needed
 
 - What is shiba3's password?
 
@@ -51,11 +51,11 @@ NOTE: If you have a machine open in the Welcome room (or any other room) please 
 
 - Read the above.
 
-	no answer needed
+	  no answer needed
 
 - Read the above!
 
-	no answer needed
+	  no answer needed
 
 - What permissions mean the user can read the file, the group can read and write to the file, and no one else can read, write or execute the file?
 
@@ -95,10 +95,10 @@ NOTE: If you have a machine open in the Welcome room (or any other room) please 
 
 - Read the above
 
-	no answer needed
+	  no answer needed
 
 - Join the Linux Fundamentals 3 room, and finish learning Linux: https://tryhackme.com/room/linux3
 
-	no answer needed
+	  no answer needed
 
 
