@@ -2,7 +2,7 @@
 
 - Let's get started!
 
-	no answer needed
+	  no answer needed
 
 - Which layer would choose to send data over TCP or UDP?
 
@@ -169,7 +169,7 @@ Can you see the path your request has taken?
 
 - Perform a whois search on facebook.com
 
-	no answer needed
+	  no answer needed
 
 - What is the registrant postal code for facebook.com?
 
@@ -181,7 +181,7 @@ Can you see the path your request has taken?
 
 - Perform a whois search on microsoft.com
 
-	no answer needed
+	  no answer needed
 
 - Which city is the registrant based in?
 
@@ -221,6 +221,6 @@ Can you see the path your request has taken?
 
 - Read the final thoughts
 
-	no answer needed
+	  no answer needed
 
 
