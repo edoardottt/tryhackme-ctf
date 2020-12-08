@@ -2,7 +2,7 @@
 
 - Deploy the machine!
 
-	no answer needed
+	  no answer needed
 
 - First and foremost, what switch do we use to set the target host?
 
@@ -60,7 +60,7 @@
 
 - Let's start simple and launch zap. This can be done in a number of ways (Commands: owasp-zap, zaproxy) or through launching it in the Kali gui.
 
-	no answer needed
+	  no answer needed
 
 - Launch ZAP, what option to we set in order to specify what we are attacking?
 
@@ -68,7 +68,7 @@
 
 - Launch the attack against our target! Throughout the course of this attack you may notice this is very similar to Nikto. Similar to Nessus vs. OpenVAS, Nikto and ZAP and both offer different perspectives on a host and, as such, it's useful to know how to leverage both scanning tools in order to maximize your own visibility in a situation wherein 'noise' doesn't particularly matter.
 
-	no answer needed
+	  no answer needed
 
 - ZAP will discover a file that typically contains pages which well-behaved web indexing engines will read in order to know which sections of a site to avoid. What is the name of this file? (Lucky for us, our scanner isn't what we would call 'well-behaved'!)
 
