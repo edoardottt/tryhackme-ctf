@@ -23,3 +23,4 @@
   - [hashcat](https://hashcat.net/hashcat/)
   - [john the ripper](https://www.openwall.com/john/)
   - [GTFObins](https://gtfobins.github.io/)
+  - [nikto](https://github.com/sullo/nikto)
