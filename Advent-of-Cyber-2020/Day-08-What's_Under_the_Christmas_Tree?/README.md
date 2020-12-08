@@ -1,9 +1,5 @@
-#
+# What's unders the Christmas Tree?
 
-Before we begin, we're going to need to deploy two Instances:
-
-    1. The THM AttackBox by pressing the "Start AttackBox" button at the top-right of the page.
-    2. The vulnerable Instance attached to this task by pressing the "Deploy" button at the top-right of this task/day
 
 - When was Snort created?
 
