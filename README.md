@@ -20,3 +20,5 @@
   - [ping](https://en.wikipedia.org/wiki/Ping_(networking_utility))
   - [traceroute](https://en.wikipedia.org/wiki/Traceroute)
   - [exiftool](https://exiftool.org/)
+  - [hashcat](https://hashcat.net/hashcat/)
+  - [john the ripper](https://www.openwall.com/john/)
