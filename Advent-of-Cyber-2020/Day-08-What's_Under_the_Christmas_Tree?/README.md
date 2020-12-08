@@ -13,13 +13,13 @@
 
 - Run a scan and provide the -Pn flag to ignore ICMP being used to determine if the host is up
 
-	no answer needed
+	  no answer needed
 	
 	- `nmap -Pn <TARGET_IP>`
 
 - Experiment with different scan settings such as -A and -sV whilst comparing the outputs given.
 
-	no answer needed
+	  no answer needed
 
 	- `nmap -A <TARGET_IP>`
 	- `nmap -sV <TARGET_IP>`
@@ -36,7 +36,7 @@
 
 - Now use different scripts against the remaining services to discover any further information about them
 
-	no answer needed
+	  no answer needed
 
 	- `nmap --script=vuln <TARGET_IP>`
 	- `nmap --script=ssh-auth-methods -p 2222 <TARGET_IP>`
