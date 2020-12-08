@@ -4,11 +4,11 @@ You were boasting on and on about your elite hacker skills in the bar and a few 
 
 - Deploy the machine.
 
-	no answer needed
+	  no answer needed
 
 - Find open ports on the machine
 
-	no answer needed
+	  no answer needed
 
 	- `nmap -Pn <TARGET_IP>`
 
