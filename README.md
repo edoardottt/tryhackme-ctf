@@ -19,3 +19,4 @@
   - [dig](https://en.wikipedia.org/wiki/Dig_(command))
   - [ping](https://en.wikipedia.org/wiki/Ping_(networking_utility))
   - [traceroute](https://en.wikipedia.org/wiki/Traceroute)
+  - [exiftool](https://exiftool.org/)
