@@ -24,3 +24,5 @@
   - [john the ripper](https://www.openwall.com/john/)
   - [GTFObins](https://gtfobins.github.io/)
   - [nikto](https://github.com/sullo/nikto)
+  - [hash-identifier](https://tools.kali.org/password-attacks/hash-identifier)
+  - [netcat](https://en.wikipedia.org/wiki/Netcat)
