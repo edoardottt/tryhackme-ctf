@@ -35,12 +35,13 @@ Have some fun! There might be multiple ways to get user access.
 		Seems good.
 	- Visit `http://<TARGET_IP>/content/` on browser.
 	- `gobuster dir -u http://<TARGET_IP>/content/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt`
-	- 	/images (Status: 301)
-		/js (Status: 301)
-		/inc (Status: 301)
-		/as (Status: 301)
-		/_themes (Status: 301)
-		/attachment (Status: 301)
+	-	 	/images (Status: 301)
+			/js (Status: 301)
+			/inc (Status: 301)
+			/as (Status: 301)
+			/_themes (Status: 301)
+			/attachment (Status: 301)
+			
 		Interesting...
 	- In `http://<TARGET_IP>/content/inc` there is  `mysql\_backup` folder. Download the .sql file inside.
 	- Open it with or something similar. You should read a line with a passwd header and the a hashed value.
