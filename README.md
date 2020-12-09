@@ -27,3 +27,8 @@
   - [hash-identifier](https://tools.kali.org/password-attacks/hash-identifier)
   - [netcat](https://en.wikipedia.org/wiki/Netcat)
   - [ftp](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
+  - [binwalk](https://github.com/ReFirmLabs/binwalk)
+  - [steghide](http://steghide.sourceforge.net/)
+  - [curl](https://curl.se/)
+  - [hydra](https://github.com/vanhauser-thc/thc-hydra)
+  - [exploit-db](https://www.exploit-db.com/)
