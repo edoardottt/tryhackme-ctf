@@ -3,7 +3,7 @@
 
 - Deploy the machine
 
-	no answer needed
+	  no answer needed
 
 - How many open ports?
 
@@ -32,7 +32,7 @@
 	- Enter username `chris` and password `crystal`.
 	- `mget *`
 	- By `ToAgentJ.txt` I can understand there is a pic that isn't a photo actually.
-	- Infact, `binwalk -e cutie.png` extracts useful data.
+	- In fact, `binwalk -e cutie.png` extracts useful data.
 	- `cd _cutie.png.extracted`
 	- `zip2john 8702.zip > zip.hash`
 	- `john zip.hash` and we get the password
@@ -81,9 +81,6 @@
 	- `cat /root/root.txt`
 	- `b53**2f55b57******3341**********`
 	- `Deskel`
-
-
-
 
 
 
