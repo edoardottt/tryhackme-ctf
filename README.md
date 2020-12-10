@@ -12,6 +12,7 @@
   - [pentestmonkey](https://github.com/pentestmonkey)
   - [gobuster](https://github.com/OJ/gobuster)
   - [Burpsuite](https://portswigger.net/burp)
+  - [metasploit](https://www.metasploit.com/)
   - [sqlmap](http://sqlmap.org/)
   - [zaproxy](https://www.zaproxy.org/)
   - [wireshark](https://www.wireshark.org/)
