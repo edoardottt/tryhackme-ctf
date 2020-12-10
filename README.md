@@ -34,3 +34,7 @@
   - [hydra](https://github.com/vanhauser-thc/thc-hydra)
   - [exploit-db](https://www.exploit-db.com/)
   - [Nessus](https://www.tenable.com/products/nessus)
+  - [enum4linux](https://github.com/CiscoCXSecurity/enum4linux)
+  - [smbclient](https://www.samba.org/samba/docs/current/man-html/smbclient.1.html)
+
+
