@@ -32,3 +32,4 @@
   - [curl](https://curl.se/)
   - [hydra](https://github.com/vanhauser-thc/thc-hydra)
   - [exploit-db](https://www.exploit-db.com/)
+  - [Nessus](https://www.tenable.com/products/nessus)
