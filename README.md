@@ -36,5 +36,5 @@
   - [Nessus](https://www.tenable.com/products/nessus)
   - [enum4linux](https://github.com/CiscoCXSecurity/enum4linux)
   - [smbclient](https://www.samba.org/samba/docs/current/man-html/smbclient.1.html)
-
+  - [linEnum](https://github.com/rebootuser/LinEnum)
 
