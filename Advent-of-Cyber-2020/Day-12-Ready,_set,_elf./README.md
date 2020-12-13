@@ -15,7 +15,7 @@
 
 - Set your Metasploit settings appropriately and gain a foothold onto the deployed machine.
 
-	no answer needed
+	  no answer needed
 
 	- after search, It should outputs only one exploit, anyway use `use 0` if the output is only one, or the appropriate number
 	- `set RHOSTS <TARGET_IP>`
@@ -31,7 +31,7 @@
 
 - Looking for a challenge? Try to find out some of the vulnerabilities present to escalate your privileges!
 
-	no answer needed
+	  no answer needed
 
 
 
