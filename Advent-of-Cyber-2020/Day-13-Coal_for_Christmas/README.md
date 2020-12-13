@@ -2,11 +2,11 @@
 
 - Hi Santa, hop in your sleigh and deploy this machine!
 
-	no answer needed
+	  no answer needed
 
 - nmap <TARGET_IP>
 
-	no answer needed
+	  no answer needed
 
 	- `nmap <TARGET_IP>`
 
@@ -31,7 +31,7 @@
 
 - This cookies_and_milk.txt file looks like a modified rendition of a DirtyCow exploit, usually written in C. Find a copy of that original file online, and get it on the target box. You can do this with some simple file transfer methods like netcat, or spinning up a quick Python HTTP server... or you can simply copy-and-paste it into a text editor on the box!
 
-	no answer needed
+	  no answer needed
 
 	- [dirtycow](https://raw.githubusercontent.com/FireFart/dirtycow/master/dirty.c)
 	- On your machine `nc -lnvp 4444 < dirty.c`
