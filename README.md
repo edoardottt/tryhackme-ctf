@@ -38,3 +38,4 @@
   - [smbclient](https://www.samba.org/samba/docs/current/man-html/smbclient.1.html)
   - [linEnum](https://github.com/rebootuser/LinEnum)
   - [linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
+  - [What's my name Web](https://whatsmyname.app/)
