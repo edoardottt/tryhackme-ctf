@@ -39,3 +39,7 @@
   - [linEnum](https://github.com/rebootuser/LinEnum)
   - [linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
   - [What's my name Web](https://whatsmyname.app/)
+  - [Google Maps](https://www.google.com/maps)
+  - [Scylla.sh](https://scylla.sh/api)
+  - [Have I been Pwned](https://haveibeenpwned.com/)
+  - [Jeffrey's Image Metadata Viewer](http://exif.regex.info)
