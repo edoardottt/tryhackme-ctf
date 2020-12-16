@@ -15,7 +15,8 @@ Santa has a webpage at `<TARGET_IP>/static/index.html`
 	- `/api/`
 
 - Where is Santa right now?
-
+	
+	- Change the `TARGET_API` in `api_fuzzer.py`
 	- `python3 api_fuzzer.py`
 	- `Winter Wonderland, Hyde Park, London`
 
