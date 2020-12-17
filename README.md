@@ -43,3 +43,4 @@
   - [Scylla.sh](https://scylla.sh/api)
   - [Have I been Pwned](https://haveibeenpwned.com/)
   - [Jeffrey's Image Metadata Viewer](http://exif.regex.info)
+  - [radare2](https://github.com/radareorg/radare2)
