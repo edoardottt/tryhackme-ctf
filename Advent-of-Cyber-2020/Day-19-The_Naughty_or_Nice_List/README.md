@@ -1,5 +1,7 @@
 # The Naughty or Nice List
 
+![santalist](https://github.com/edoardottt/tryhackme-ctf/blob/main/Advent-of-Cyber-2020/Day-19-The_Naughty_or_Nice_List/list.png)
+
 - Once the VM is deployed, connect to the web app: `http://<TARGET_IP>`
 
 - Enter a name in the form and click the "Search" button. When the page loads, it should tell you whether that name is on the Naughty List or the Nice List. Notice that the URL for the page looks something like this: `http://<TARGET_IP>/?proxy=http%3A%2F%2Flist.hohoho%3A8080%2Fsearch.php%3Fname%3DTib3rius`
