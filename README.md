@@ -45,3 +45,4 @@
   - [Jeffrey's Image Metadata Viewer](http://exif.regex.info)
   - [radare2](https://github.com/radareorg/radare2)
   - [ILSpy](https://github.com/icsharpcode/ILSpy)
+  - [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
