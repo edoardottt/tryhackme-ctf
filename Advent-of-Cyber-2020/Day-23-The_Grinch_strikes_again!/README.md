@@ -1,5 +1,7 @@
 # The Grinch strikes again!
 
+![win10-ransom](https://github.com/edoardottt/tryhackme-ctf/blob/main/Advent-of-Cyber-2020/Day-23-The_Grinch_strikes_again!/win-ransomware.png)
+
 Use Remmina to connect to the target machine as the documentation in the [proper page](https://tryhackme.com/room/adventofcyber2) tells you.
 
 	- User name: `administrator`
