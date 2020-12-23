@@ -4,13 +4,13 @@
 
 Use Remmina to connect to the target machine as the documentation in the [proper page](https://tryhackme.com/room/adventofcyber2) tells you.
 
-	- User name: `administrator`
-	- User password: `sn0wF!akes!!!`
+  - User name: `administrator`
+  - User password: `sn0wF!akes!!!`
 
 
 - Decrypt the fake 'bitcoin address' within the ransom note. What is the plain text value?
 
-	- `echo  | base64`
+	- `echo -n "bm9tb3JlYmVzdGZlc3RpdmFsY29tcGFueQ==" | base64 -d`
 	- `nomorebestfestivacompany`
 
 - At times ransomware changes the file extensions of the encrypted files. What is the file extension for each of the encrypted files?
