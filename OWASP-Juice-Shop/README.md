@@ -3,11 +3,11 @@
 
 - Deploy the VM attached to this task to get started! You can access this machine by using your browser-based machine, or if you're connected through OpenVPN.
 
-	no answer needed
+	  no answer needed
 
 - Once the machine has loaded, access it by copying and pasting its IP into your browser; if you're using the browser-based machine, paste the machines IP into a browser on that machine.
 
-	no answer needed
+	  no answer needed
 
 - What's the Administrator's email address?
 
