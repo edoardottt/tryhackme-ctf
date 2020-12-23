@@ -35,7 +35,7 @@ Use Remmina to connect to the target machine as the documentation in the [proper
 
 - Right-click and inspect the properties for the hidden folder. Use the 'Previous Versions' tab to restore the encrypted file that is within this hidden folder to the previous version. What is the password within the file?
 
-	- `m33pa55w0rdIZseecure!`
+	- `m****55w0**********e!`
 
 
 
