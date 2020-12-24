@@ -2,23 +2,23 @@
 
 - You can find Sublist3r [here!](https://github.com/aboul3la/Sublist3r) We'll install this in the next task.
 
-	no answer needed
+	  no answer needed
 
 - First, let's change to our opt directory: `cd /opt`
 
-	no answer needed
+	  no answer needed
 
 - Next, let's clone the Sublist3r repository into opt: `git clone https://github.com/aboul3la/Sublist3r.git`
 
-	no answer needed
+	  no answer needed
 
 - Now let's move into the Sublist3r directory we've just created: `cd /opt/Sublist3r`
 
-	no answer needed
+	  no answer needed
 
 - Finally, let's install the requirements for running Sublist3r: `pip3 install -r requirements.txt`
 
-	no answer needed
+	  no answer needed
 
 - What switch can we use to set our target domain to perform recon on?
 
@@ -42,7 +42,7 @@
 
 - Let's run sublist3r now against `nbc.com`, a fairly large American news company. Run this now with the command: `python3 sublist3r.py -d nbc.com -o sub-output-nbc.txt`
 
-	no answer needed
+	  no answer needed
 
 - Once that completes open up your results and take a look through them. Email domains are almost always interesting and typically have an email portal (usually Outlook) located at them. Which subdomain is likely the email portal?
 
