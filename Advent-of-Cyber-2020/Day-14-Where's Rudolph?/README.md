@@ -38,13 +38,13 @@
 
 - Did you find a flag too?
 
-	- `{FLAG}AL********************`
+	- `{FLAG}**********************`
 
 - Has Rudolph been pwned? What password of his appeared in a breach?
 
 	- [Scylla Search](https://scylla.sh/api)
 	- The email is shown on Twitter `rudolphthered@hotmail.com`.
-	- `spygame`
+	- `*******`
 
 - Based on all the information gathered.  It's likely that Rudolph is in the Windy City and is staying in a hotel on Magnificent Mile.  What are the street numbers of the hotel address?
 
