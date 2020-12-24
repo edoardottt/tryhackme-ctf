@@ -52,7 +52,7 @@ What "new" username was created, with the default operations of the real C sourc
 	- `cat message_from_the_grinch.txt`
 	- `touch coal`
 	- `tree | md5sum`
-	- `8b1**00dd******adb02**********cc`
+	- `********************************`
 
 
 
