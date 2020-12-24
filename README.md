@@ -46,3 +46,5 @@
   - [radare2](https://github.com/radareorg/radare2)
   - [ILSpy](https://github.com/icsharpcode/ILSpy)
   - [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
+  - [crackstation](https://crackstation.net/)
+  - [lxc](https://en.wikipedia.org/wiki/LXC)
