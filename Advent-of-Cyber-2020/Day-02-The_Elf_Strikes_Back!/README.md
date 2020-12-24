@@ -28,6 +28,6 @@ In which directory are the uploaded files stored?
 
 	- `cat /var/www/flag.txt`
 
-	- `THM{MG**Y2UyM******ExYTY4**********zhh}`
+	- `THM{**********************************}`
 
 ## see you ...
