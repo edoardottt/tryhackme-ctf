@@ -17,7 +17,7 @@ Download the ZIP file "aocpcaps.zip" that is attached to this task, use a combin
 - Let's begin analysing "pcap2.pcap". Look at the captured FTP traffic; what password was leaked during the login process?
 There's a lot of irrelevant data here - Using a filter here would be useful!
 
-	- `plaintext_password_fiasco`
+	- `*********_********_******`
 
 - Continuing with our analysis of "pcap2.pcap", what is the name of the protocol that is encrypted?
 
