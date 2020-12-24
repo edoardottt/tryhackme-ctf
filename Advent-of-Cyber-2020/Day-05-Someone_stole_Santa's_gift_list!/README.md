@@ -34,6 +34,6 @@
 
 - What is the admin password?
 
-	- `E***SW*z*******B`
+	- `****************`
 
 # see you ...
