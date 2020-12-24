@@ -36,7 +36,7 @@ You may find uploading some of the enumeration scripts that were used during tod
 - Use this executable to launch a system shell as root.
 What are the contents of the file located at /root/flag.txt?
 
-	- `thm{2fb10afe933296592}`
+	- `thm{*****************}`
 
 
 
