@@ -26,6 +26,6 @@ What is the value of Santa's cookie?
 - Now that you are the santa user, you can re-activate the assembly line!
 What is the flag you're given when the line is fully active?
 
-	- `THM{Mj**Yzg5*****2Q1N**********hYmQy}`
+	- `THM{********************************}`
 
 ## see you...
