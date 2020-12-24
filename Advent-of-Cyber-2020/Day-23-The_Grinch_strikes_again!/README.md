@@ -10,8 +10,8 @@ Use Remmina to connect to the target machine as the documentation in the [proper
 
 - Decrypt the fake 'bitcoin address' within the ransom note. What is the plain text value?
 
-	- `echo -n "bm9tb3JlYmVzdGZlc3RpdmFsY29tcGFueQ==" | base64 -d`
-	- `nomorebestfestivacompany`
+	- `echo -n "bm9tb3J************pdmFsY29tcGFueQ==" | base64 -d`
+	- `nomore******************`
 
 - At times ransomware changes the file extensions of the encrypted files. What is the file extension for each of the encrypted files?
 
@@ -35,8 +35,7 @@ Use Remmina to connect to the target machine as the documentation in the [proper
 
 - Right-click and inspect the properties for the hidden folder. Use the 'Previous Versions' tab to restore the encrypted file that is within this hidden folder to the previous version. What is the password within the file?
 
-	- `m****55w0**********e!`
-
+	- `*********************`
 
 
 
