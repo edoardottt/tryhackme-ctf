@@ -22,7 +22,7 @@
 
 - Bypass the filters. Upload and execute a reverse shell.
 
-	no answer needed
+	  no answer needed
 
 	- Navigate to `http://<TARGET_IP>:65000/uploads.php`
 	- Download [php-reverse-shell](https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php)
@@ -73,7 +73,7 @@
 
 - Upgrade and stabilize your shell.
 
-	no answer needed
+	  no answer needed
 	
 	- Referred to the first command of the previous task (`python3...`).
 
@@ -110,7 +110,7 @@
 
 - Use su to login to the newly discovered user by exploiting password reuse.
 
-	no answer needed
+	  no answer needed
 
 	- Exit from mysql client with `exit`.
 	- `su flynn`
@@ -130,7 +130,7 @@
 
 - Abuse this group to escalate privileges to root.
 
-	no answer needed
+	  no answer needed
 
 	- Check with `lxc image list` on target machine which containers are available locally.
 	~~~
