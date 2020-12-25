@@ -2,15 +2,15 @@
 
 - Start the VM and access it using your browser.
 
-	no answer needed
+	  no answer needed
 
 - Access the first walkthrough, and add a parameter at the end of the link named "?page=".
 
-	no answer needed
+	  no answer needed
 
 - Let's include the home page. At the "?page=" parameter enter home.html to include the home page.
 
-	no answer needed
+	  no answer needed
 
 - What's the message you get when you include the home.html?
 
@@ -18,7 +18,7 @@
 
 - Type /etc/passwd in the parameter to read it.
 
-	no answer needed
+	  no answer needed
 
 - What user that it's not by default there is present?
 
@@ -26,11 +26,11 @@
 
 - Well done! You've exploited your first local file inclusion!
 
-	no answer needed
+	  no answer needed
 
 - Now that we know what Directory Traversal is, let's access the second walkthrough.
 
-	no answer needed
+	  no answer needed
 
 - Add the "?page=" parameter, and try to include the home page again. Does it work (Yes/No)?
 
@@ -38,7 +38,7 @@
 
 - Use "../" to move one directory up.
 
-	no answer needed
+	  no answer needed
 
 - What are the credit card numbers?
 
@@ -47,21 +47,21 @@
 
 - The same way you can include the passwd file. You'll have to move more directories up. Try reading the passwd file.
 
-	no answer needed
+	  no answer needed
 
 	- `http://<TARGET_IP>/lfi2/lfi.php?page=../../../../../etc/passwd`
 
 - Well done! You've exploited your first LFI using Directory Traversal.
 
-	no answer needed
+	  no answer needed
 
 - We got our hands a bit dirty with basic LFI and LFI using path traversal. Let's dig a little deeper, and use log poisoning to get access to the underlying operating system.
 
-	no answer needed
+	  no answer needed
 
 - We will inject some malicious php code into the server's log.
 
-	no answer needed
+	  no answer needed
 
 - Access the third walkthrough, add the "?page=" parameter and let's try reading the apache log file.
 The log file is located at the following path: /var/log/apache2/access.log
