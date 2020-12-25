@@ -6,16 +6,16 @@
 This room breaks each OWASP topic down and includes details on what the vulnerability is, how it occurs and how you can exploit it. You will put the theory into practise by completing supporting challenges.
 
 
-	- Injection
-	- Broken Authentication
-	- Sensitive Data Exposure
-	- XML External Entity
-	- Broken Access Control
-	- Security Misconfiguration
-	- Cross-site Scripting
-	- Insecure Deserialization
-	- Components with Known Vulnerabilities
-	- Insufficent Logging & Monitoring
+  - Injection
+  - Broken Authentication
+  - Sensitive Data Exposure
+  - XML External Entity
+  - Broken Access Control
+  - Security Misconfiguration
+  - Cross-site Scripting
+  - Insecure Deserialization
+  - Components with Known Vulnerabilities
+  - Insufficent Logging & Monitoring
 
 The room has been designed for beginners and assume no previous knowledge of security.
 
