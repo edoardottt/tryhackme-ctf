@@ -48,3 +48,4 @@
   - [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
   - [crackstation](https://crackstation.net/)
   - [lxc](https://en.wikipedia.org/wiki/LXC)
+  - [shodan](https://www.shodan.io/)
