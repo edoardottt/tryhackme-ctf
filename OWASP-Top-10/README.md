@@ -72,7 +72,7 @@ The room has been designed for beginners and assume no previous knowledge of sec
 - What is the flag that you found in darren's account?
 
 	- Register a user called ` darren` and then login is with that username.
-	- `fe8607******1a3c9***********b667`
+	- `********************************`
 
 - Now try to do the same trick and see if you can login as arthur.
 
@@ -80,7 +80,7 @@ The room has been designed for beginners and assume no previous knowledge of sec
 
 - What is the flag that you found in arthur's account?
 
-	- `d9*******4fda46*************e16e`
+	- `********************************`
 
 - Read the introduction to Sensitive Data Exposure and deploy the machine.
 
@@ -108,7 +108,7 @@ The room has been designed for beginners and assume no previous knowledge of sec
 	- `sqlite3 webapp.db`
 	- `.tables`
 	- `select * from users;`
-	- `6e*******19179a0************5ceb`
+	- `********************************`
 
 - Crack the hash. What is the admin's plaintext password?
 
@@ -118,7 +118,7 @@ The room has been designed for beginners and assume no previous knowledge of sec
 
 - Login as the admin. What is the flag?
 
-	- `THM{Y**************************iMjdl}`
+	- `THM{********************************}`
 
 - Deploy the machine attached to the task.
 
@@ -205,7 +205,7 @@ The room has been designed for beginners and assume no previous knowledge of sec
 	<root>&read;</root>
 	~~~
 
-	- `***************A7b`
+	- `******************`
 
 - Read and understand how broken access control works.
 
@@ -238,7 +238,7 @@ The room has been designed for beginners and assume no previous knowledge of sec
 	Make sure you change this password immediately!
 	~~~
 	- Login
-	- `thm{4***********6**8************2*17}`
+	- `thm{********************************}`
 
 - Deploy the VM
 
@@ -247,15 +247,14 @@ The room has been designed for beginners and assume no previous knowledge of sec
 - Navigate to `http://<TARGET_IP>/` in your browser and click on the "Reflected XSS" tab on the navbar; craft a reflected XSS payload that will cause a popup saying "Hello".
 
 	- `<script>document.alert('Hello!');</script>`
-	- `Th*************STh*******ink`
+	- `****************************`
 
 - On the same reflective page, craft a reflected XSS payload that will cause a popup with your machines IP address.
 
 	- `<script>document.alert(window.location.hostname);</script>`
 	- `Reflecti**********in`
 
-- Now navigate to http://10.10.136.11/ in your browser and click on the "Stored XSS" tab on the navbar; make an account.
-Then add a comment and see if you can insert some of your own HTML.
+- Now navigate to http://10.10.136.11/ in your browser and click on the "Stored XSS" tab on the navbar; make an account.Then add a comment and see if you can insert some of your own HTML.
 
 	- username: `edoardottt <!--ciao-->`
 	- password: whatever
@@ -264,7 +263,7 @@ Then add a comment and see if you can insert some of your own HTML.
 	- Login
 	- Click Stored Xss tab.
 	- Add a comment. ahah.
-	- `H******gs`
+	- `*********`
 
 - On the same page, create an alert popup box appear on the page with your document cookies.
 
@@ -294,12 +293,12 @@ Then add a comment and see if you can insert some of your own HTML.
 	~~~
 	- I don't know very well actually how I went forward. I did 2-3 tries with `LVL2` and others..(?)
 	- `<script>alert(document.cookie)</script>`
-	- `*********_LVL2`
+	- `**************`
 
 - Change "XSS Playground" to "I am a hacker" by adding a comment and using Javascript.
 
 	- `<script>document.querySelector('#thm-title').textContent = 'I am a hacker'</script>`
-	- `web************************_with_xss`
+	- `***********************************`
 
 -  Who developed the Tomcat application?
 
