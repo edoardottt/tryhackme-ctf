@@ -1,5 +1,7 @@
 # OWASP Top 10
 
+![owasp](https://github.com/edoardottt/tryhackme-ctf/blob/main/OWASP-Top-10/owasp.png)
+
 
 This room breaks each OWASP topic down and includes details on what the vulnerability is, how it occurs and how you can exploit it. You will put the theory into practise by completing supporting challenges.
 
@@ -20,19 +22,19 @@ The room has been designed for beginners and assume no previous knowledge of sec
 
 - Read the above.
 
-	no answer needed
+	  no answer needed
 
 - Connect to our network or deploy the AttackBox.
 
-	no answer needed
+	  no answer needed
 
 - I've understood Injection attacks.
 
-	no answer needed
+	  no answer needed
 
 - I've understood command injection.
 
-	no answer needed
+	  no answer needed
 
 - What strange text file is in the website root directory?
 
@@ -65,7 +67,7 @@ The room has been designed for beginners and assume no previous knowledge of sec
 
 - I've understood broken authentication mechanisms.
 
-	no answer needed
+	  no answer needed
 
 - What is the flag that you found in darren's account?
 
@@ -74,7 +76,7 @@ The room has been designed for beginners and assume no previous knowledge of sec
 
 - Now try to do the same trick and see if you can login as arthur.
 
-	no answer needed
+	  no answer needed
 
 - What is the flag that you found in arthur's account?
 
@@ -82,15 +84,15 @@ The room has been designed for beginners and assume no previous knowledge of sec
 
 - Read the introduction to Sensitive Data Exposure and deploy the machine.
 
-	no answer needed
+	  no answer needed
 
 - Read and understand the supporting material on SQLite Databases.
 
-	no answer needed
+	  no answer needed
 
 - Read the supporting material about cracking hashes.
 
-	no answer needed
+	  no answer needed
 
 - What is the name of the mentioned directory?
 
@@ -116,11 +118,11 @@ The room has been designed for beginners and assume no previous knowledge of sec
 
 - Login as the admin. What is the flag?
 
-	- `THM{Y*********E5N2V************iMjdl}`
+	- `THM{Y**************************iMjdl}`
 
 - Deploy the machine attached to the task.
 
-	no answer needed
+	  no answer needed
 
 - Full form of XML
 
@@ -152,7 +154,7 @@ The room has been designed for beginners and assume no previous knowledge of sec
 
 - Try the payload mentioned in description on the website.
 
-	no answer needed
+	  no answer needed
 
 	- Navigate to `http://<TARGET_IP>`
 	- Insert this code inside the payload area:
@@ -166,7 +168,7 @@ The room has been designed for beginners and assume no previous knowledge of sec
 
 - Try to display your own name using any payload.
 
-	no answer needed
+	  no answer needed
 
 	- Insert this code inside the payload area:
 
@@ -181,7 +183,7 @@ The room has been designed for beginners and assume no previous knowledge of sec
 	
 - See if you can read the /etc/passwd
 
-	no answer needed
+	  no answer needed
 	
 	- Like we did previously
 
@@ -203,19 +205,19 @@ The room has been designed for beginners and assume no previous knowledge of sec
 	<root>&read;</root>
 	~~~
 
-	- `MIIEo**********A7b`
+	- `***************A7b`
 
 - Read and understand how broken access control works.
 
-	no answer needed
+	  no answer needed
 
 - Read and understand how IDOR works.
 
-	no answer needed
+	  no answer needed
 
 - Deploy the machine and go to `http://<TARGET_IP>` and login with the username being `noot` and the password `test1234`.
 
-	no answer needed
+	  no answer needed
 
 - Look at other users notes. What is the flag?
 
@@ -224,7 +226,7 @@ The room has been designed for beginners and assume no previous knowledge of sec
 
 - Deploy the VM
 
-	no answer needed
+	  no answer needed
 
 - Hack into the webapp, and find the flag!
 
@@ -236,21 +238,21 @@ The room has been designed for beginners and assume no previous knowledge of sec
 	Make sure you change this password immediately!
 	~~~
 	- Login
-	- `thm{4*951*******64a8************2e17}`
+	- `thm{4***********6**8************2*17}`
 
 - Deploy the VM
 
-	no answer needed
+	  no answer needed
 
 - Navigate to `http://<TARGET_IP>/` in your browser and click on the "Reflected XSS" tab on the navbar; craft a reflected XSS payload that will cause a popup saying "Hello".
 
 	- `<script>document.alert('Hello!');</script>`
-	- `ThereIsMoreToXSSThanYouThink`
+	- `Th*************STh*******ink`
 
 - On the same reflective page, craft a reflected XSS payload that will cause a popup with your machines IP address.
 
 	- `<script>document.alert(window.location.hostname);</script>`
-	- `ReflectiveXss4TheWin`
+	- `Reflecti**********in`
 
 - Now navigate to http://10.10.136.11/ in your browser and click on the "Stored XSS" tab on the navbar; make an account.
 Then add a comment and see if you can insert some of your own HTML.
@@ -262,7 +264,7 @@ Then add a comment and see if you can insert some of your own HTML.
 	- Login
 	- Click Stored Xss tab.
 	- Add a comment. ahah.
-	- `HTML_T4gs`
+	- `H******gs`
 
 - On the same page, create an alert popup box appear on the page with your document cookies.
 
@@ -358,11 +360,11 @@ if a dog was sleeping, would this be:
 
 - Read above.
 
-	no answer needed
+	  no answer needed
 
 - Read the above!
 
-	no answer needed
+	  no answer needed
 
 - How many characters are in /etc/passwd (use `wc -c /etc/passwd` to get the answer)
 
@@ -382,6 +384,6 @@ if a dog was sleeping, would this be:
 
 - Read the above!
 
-	no answer needed
+	  no answer needed
 
 
