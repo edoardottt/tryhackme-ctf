@@ -126,3 +126,60 @@ What is the hash type stored in the file hashA.txt
 	- `cat $(find ~ -type f | grep ent.txt)`
 	- Google for that hash.
 	- `****`
+
+- Now try it for yourself. Make a random text file and enter some readable sentences in there before encrypting and decrypting it as illustrated above.
+
+	no answer needed
+
+- You wish to encrypt a file called `history_logs.txt` using the AES-128 scheme. What is the full command to do this?
+
+	- `pgp --cipher-algo AES-128 --symmetric history_logs.txt`
+
+- What is the command to decrypt the file you just encrypted?
+
+	- `pgp history_logs.txt.pgp`
+
+- Find an encrypted file called layer4.txt, its password is bob. Use this to locate the flag. What is the flag?
+
+	- `find ~ -type f | layer4.txt`
+	- On target `nc -lnvp 1234 < layer4.txt`
+	- On your machine `nc <TARGET_IP> 1234 > layer4.txt`
+	- `pgp layer4.txt` and enter the password.
+	- `cat layer4.txt.decrypted`. This for layer3.txt and layer2.txt. Then you will find an hash.
+	- `hash-identifier` says not found.
+	- `cat layer2.txt.decrypted | base64 -d` It's because it's base64. Ok.
+	- Same as before for layer1.txt
+	- `Flag{*****************}`
+
+- Now try it yourself! Encrypt a file and use a common password contained in the wordlist you wish to use. Follow the instructions above to decrypt as if you are a hacker. If it worked, well done.
+
+	no answer needed
+
+- Find an encrypted file called personal.txt.gpg and find a wordlist called data.txt. Use tac to reverse the wordlist before brute-forcing it against the encrypted file. What is the the password to the encrypted file?
+
+	- `find ~ -type f | grep personal.txt.gpg`
+	- `nc -lnvp 1234 < personal.txt.gpg`
+	- `nc <TARGET_IP> 1234 > personal.txt.gpg`
+	- This also for `data.txt`
+	- `tac data.txt > reversed_data.txt`
+	- Then, `gpg2john personal.txt.gpg > personal`
+	- `john --format=gpg --wordlist=reversed_data.txt personal`
+	- `***************`
+
+- What is written in this now decrypted file?
+
+	- `getting stronger in linux`
+
+- Find a file called employees.sql and read the SQL database. (Sarah and Sameer can log both into mysql using the password: password). Find the flag contained in one of the tables. What is the flag?
+
+	- `find ~ -type f | grep employees.sql`
+	- `cd ~/serverLx`
+	- `mysql -u sarah -p` and enter password `password`.
+	- `source employees.sql`
+	- `use employees;`
+	- `show tables;`
+	- `describe employees;`
+	- `select * from employees where first_name = "Lobel";`
+	- `Flag{********}`
+
+
