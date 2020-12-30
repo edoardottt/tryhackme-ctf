@@ -56,7 +56,7 @@
 
 	- `mv "encryption keys" /home/john/logs`
 
-- Find a file named readME_hint.txt inside topson's directory and read it. Using the instructions it gives you, get the second flag.
+- Find a file named `readME_hint.txt` inside topson's directory and read it. Using the instructions it gives you, get the second flag.
 
 	- `find / -type f | grep readME_hint.txt`
 	- `cat /home/topson/corperateFiles/RecordsFinances/readME_hint.txt`
@@ -67,3 +67,62 @@
 	- `ls`
 	- `./-runME.sh`
 	- `****{****************}`
+
+- Download the hash file attached to this task and attempt to crack the MD5 hash. What is the password?
+
+	- Simply google the hash.
+	- `*********`
+
+- SSH as sarah using: sarah@[MACHINE:IP] and use the password: rainbowtree1230x
+What is the hash type stored in the file hashA.txt
+
+	- `ssh sarah@<TARGET_IP>` and enter the password.
+	- ` uname -a;pwd;ls -lah`
+	- `find ~ -type f | grep hashA.txt`
+	- `cat hashA.txt | hash-identifier`
+	- `MD4`
+
+- Crack hashA.txt using john the ripper, what is the password?
+	
+	- `john --format=raw-md4 --wordlist=/usr/share/wordlists/rockyou.txt hashA.txt`
+	- `*****`
+
+- What is the hash type stored in the file hashB.txt
+
+	- `find ~ -type f | grep hashB.txt`
+	- `cat /home/sarah/oldLogs/settings/craft/hashB.txt`
+	- `cat hashB.txt | hash-identifier`
+	- `SHA-1`
+
+- Find a wordlist  with the file extention of '.mnf' and use it to crack the hash with the filename hashC.txt. What is the password?
+
+	- `find ~ -type f | grep .mnf`
+	- `/home/sarah/system AB/db/ww.mnf`
+	- `find ~ -type f | grep hashC.txt`
+	- `cat "/home/sarah/system AB/server_mail/hashC.txt"`
+	- `cat hash3.txt | hash-identifier`
+	- On target `nc -lnvp 1234 < "/home/sarah/system AB/db/ww.mnf"`
+	- On your machine `nc <TARGET_IP> 1234 > ab.mnf`
+	- `john --format=raw-sha256 --wordlist=ab.mnf  hash3.txt`
+	- `******************`
+
+- Crack hashB.txt using john the ripper, what is the password?
+
+	- `john --format=raw-MD5 --wordlist=/usr/share/wordlists/rockyou.txt hash2.txt`
+	- `*******`
+
+- what is the name of the tool which allows us to decode base64 strings?
+
+	- `base64`
+
+- find a file called encoded.txt. What is the special answer?
+
+	- `find ~ -type f | grep encoded.txt`
+	- `cat "/home/sarah/system AB/managed/encoded.txt" | base64 -d > decoded.txt`
+	- `head decoded.txt`
+	- `cat decoded.txt | grep special`
+	- You will find `special: the answer is in a file called ent.txt, find it`.
+	- `find ~ -type f | grep ent.txt`
+	- `cat $(find ~ -type f | grep ent.txt)`
+	- Google for that hash.
+	- `****`
