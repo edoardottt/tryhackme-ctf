@@ -182,4 +182,65 @@ What is the hash type stored in the file hashA.txt
 	- `select * from employees where first_name = "Lobel";`
 	- `Flag{********}`
 
+- Go to the /home/shared/chatlogs directory and read the first chat log named: LpnQ. Use this to help you to proceed to the next task.
 
+	no answer needed
+
+- What is Sameer's SSH password?
+
+	- Tried to figure out something in the `LpnQ` file.
+	- Then I did `ls -al` ad I saw all the real chat files have little size in respect to the others, so I just read all those.
+	- Nice chat:
+	~~~
+	(2020-08-13) Sarah: Michael, I have been having trouble accessing the sql database back-up copy made today. Sameer gave me the password, but it just will not work?
+
+	(2020-08-13) Michael: Ah, yes. I remember, the security engineer was testing out a new automated software for creating sql database backups. He must have configured it to encrypt the backups with a different password.
+
+	(2020-08-13) Sarah: So how can I get a hold of it?
+
+	(2020-08-13) Michael: Good question. From what I remember the test program utilised a configuration file around 50mb. It is located inside the home/shared/sql/conf directory. This configuration file contained the directory location of a wordlist it used to randomly select a password from for encrypting the sql back-up copies with. 
+
+	(2020-08-13) Sarah: I do not really understand the last part?
+
+	(2020-08-13) Michael: once you find the configuration file and consequently the wordlist directory, visit it. One of those wordlists must contain the password it used for the testing. All I remember is that the password began with ebq. You will need Sameer’s account. His SSH password is: ************************. 
+
+	(2020-08-13) Sarah: Thank you, I will try to find it.
+	~~~
+	- `*************************`
+
+- What is the password for the sql database back-up copy
+
+	- `cat $(find /home/shared/sql/conf -type f -size +40M) | grep dir`
+	- You will find a base64 encoded string.
+	- `echo "aG9tZS9zYW1lZXIvSGlzdG9yeSB********************************go=" | base64 -d`
+	- `home/sameer/History LB/labmind/latestBuild/configBDB`
+	- `ssh Sameer@<TARGET_IP>` and enter password.
+	- `cd` into that directory above
+	- `cat * | grep ebq`
+	- Try `pgp 2020-08-13.zip.gpg` with all the password you see.
+	- `*******`
+
+- Find the SSH password of the user James. What is the password?
+
+	- `mysql -u sarah -p` and enter the password
+	- `source sakila-mv-data.sql`
+	- `show databases;`
+	- `use employees;`
+	- `describe employyes;`
+	- `select * from employees where first_name LIKE "james";`
+	- `************`
+
+- SSH as james and change the user to root?
+
+	no answer needed
+
+- What is the root flag?
+
+	- `cat /root/root.txt`
+	- `Flag{*****************}`
+
+
+
+
+
+# NOW YOU ARE LINUX STRONGER!!!
