@@ -2,7 +2,7 @@
 
 - I have read and understood
 
-	no answer needed
+	  no answer needed
 
 - What is the correct option for finding files based on group
 
@@ -22,7 +22,7 @@
 
 - Type: less [filename] to open the file. Then, before anything, type / before typing: keyword followed by [ENTER]. Notice how that allowed us to search for the first instance of that word in the entire document. For much larger documents this can be useful and if there are many more instances of that word in the document, we would be able to hit enter again to find the next instance in the document.
 
-	no answer needed
+	  no answer needed
 
 - What are the characters subsequent to the word you found?
 
@@ -129,7 +129,7 @@ What is the hash type stored in the file hashA.txt
 
 - Now try it for yourself. Make a random text file and enter some readable sentences in there before encrypting and decrypting it as illustrated above.
 
-	no answer needed
+	  no answer needed
 
 - You wish to encrypt a file called `history_logs.txt` using the AES-128 scheme. What is the full command to do this?
 
@@ -153,7 +153,7 @@ What is the hash type stored in the file hashA.txt
 
 - Now try it yourself! Encrypt a file and use a common password contained in the wordlist you wish to use. Follow the instructions above to decrypt as if you are a hacker. If it worked, well done.
 
-	no answer needed
+	  no answer needed
 
 - Find an encrypted file called personal.txt.gpg and find a wordlist called data.txt. Use tac to reverse the wordlist before brute-forcing it against the encrypted file. What is the the password to the encrypted file?
 
@@ -184,7 +184,7 @@ What is the hash type stored in the file hashA.txt
 
 - Go to the /home/shared/chatlogs directory and read the first chat log named: LpnQ. Use this to help you to proceed to the next task.
 
-	no answer needed
+	  no answer needed
 
 - What is Sameer's SSH password?
 
@@ -232,7 +232,7 @@ What is the hash type stored in the file hashA.txt
 
 - SSH as james and change the user to root?
 
-	no answer needed
+	  no answer needed
 
 - What is the root flag?
 
@@ -243,4 +243,4 @@ What is the hash type stored in the file hashA.txt
 
 
 
-# NOW YOU ARE LINUX STRONGER!!!
+## NOW YOU ARE LINUX STRONGER!!!
