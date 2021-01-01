@@ -2,7 +2,7 @@
 
 - Read the above 
 
-	no answer needed
+	  no answer needed
 
 - What flag you set to analyze the binary upon entering the r2 console (equivalent to running aaa once your inside the console)
 
@@ -100,7 +100,7 @@
 
 - Play around with the s command in the example1 and example2 binaries
 
-	no answer needed
+	  no answer needed
 
 - How would you print the hex output of where you currently are in memory?
 
@@ -194,7 +194,7 @@
 
 - Go back through all previous binaries and mess around with debug mode.
 
-	no answer needed
+	  no answer needed
 
 - How do you enter "graph mode" which allows everything to be organized in nice readable boxes?(A personal favorite of mine. Also note that the second character is uppercase)
 
@@ -234,7 +234,7 @@
 
 - Get the example4 binary to show the You win! message
 
-	no answer needed
+	  no answer needed
 
 - What is the password that outputs the you win! message?
 
