@@ -31,6 +31,7 @@
   - [binwalk](https://github.com/ReFirmLabs/binwalk)
   - [steghide](http://steghide.sourceforge.net/)
   - [curl](https://curl.se/)
+  - [PowerSploit](https://github.com/PowerShellMafia/PowerSploit)
   - [hydra](https://github.com/vanhauser-thc/thc-hydra)
   - [exploit-db](https://www.exploit-db.com/)
   - [Nessus](https://www.tenable.com/products/nessus)
