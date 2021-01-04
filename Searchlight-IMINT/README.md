@@ -24,4 +24,34 @@
 
 	- `sl{4}`
 
+- Which building is this photo taken in?
 
+	- `sl{vancouver international airport}`
+
+- Which country is this building located in?
+
+	- `sl{canada}`
+
+- Which city is this building located in?
+
+	- `sl{vancouver}`
+
+- Which city is this coffee shop located in?
+
+	- `sl{blairgowrie}`
+
+- Which street is this coffee shop located in?
+
+	- `sl{allan street}`
+
+- What is their phone number?
+
+	- `sl{+447878 839128}`
+
+- What is their email address?
+
+	- `sl{theweecoffeeshop@aol.com}`
+
+- What is the surname of the owners?
+
+	- `sl{cochrane}`
