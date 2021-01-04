@@ -55,3 +55,37 @@
 - What is the surname of the owners?
 
 	- `sl{cochrane}`
+
+- Which restaurant was this picture taken at?
+
+	- `sl{katz's deli}`
+
+- What is the name of the Bon Appétit editor that worked 24 hours at this restaurant?
+
+	- `sl{andrew knowlton}`
+
+- What is the name of this statue?
+
+	- `sl{rudolph the chrome nosed reindeer}`
+
+- Who took this image?
+
+	- `sl{kjersti stensrud}`
+
+- What is the name of the character that the statue depicts?
+
+	- `sl{lady justice}`
+
+- where is this statue located?
+
+	- `sl{alexandria, virginia}`
+
+- What is the name of the building opposite from this statue?
+
+	- `sl{the westin alexandria old town}`
+
+- What is the name of the hotel that my friend is staying in?
+
+	- `sl{novotel singapore clarke quay}`
+
+
