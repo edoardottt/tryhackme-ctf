@@ -15,3 +15,35 @@
 - Read the above
 
 	  no answer needed
+
+- Flag from GitHub page
+
+	- `THM{**************}`
+
+- Admin panel flag?
+
+	- Retrieve the `db.sqlite3` file.
+	- `sqlite3 db.sqlite3`
+	- `.databases`
+	- `select * from db.auth_user`
+	- `THM{************}`
+
+- User flag?
+
+	- `select * from db.auth_user`
+	- Go to the PasteBin link
+	- `hash-identifier`
+	- Go to [crackstation](https://crackstation.net) and crack the hash
+	- `su StrangeFox` and crack the hash
+	- `cat ~/user.txt`
+	- `THM{************}`
+
+- Hidden flag?
+
+	- `cd ~/messagebox/messagebox`
+	- `cat * | grep THM`
+	- `THM{************}`
+
+
+
+
