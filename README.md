@@ -51,3 +51,7 @@
   - [lxc](https://en.wikipedia.org/wiki/LXC)
   - [shodan](https://www.shodan.io/)
   - [gpg](https://gnupg.org/)
+  - [Dcode.fr](http://dcode.fr)
+  - [stegsolve](https://en.kali.tools/all/?tool=1762)
+  - [Xor.pw](http://xor.pw/#)
+  
