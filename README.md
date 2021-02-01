@@ -54,4 +54,4 @@
   - [Dcode.fr](http://dcode.fr)
   - [stegsolve](https://en.kali.tools/all/?tool=1762)
   - [Xor.pw](http://xor.pw/#)
-  
+  - [fcrackzip](https://github.com/hyc/fcrackzip)
