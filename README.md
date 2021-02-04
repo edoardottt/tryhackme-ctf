@@ -55,3 +55,4 @@
   - [stegsolve](https://en.kali.tools/all/?tool=1762)
   - [Xor.pw](http://xor.pw/#)
   - [fcrackzip](https://github.com/hyc/fcrackzip)
+  - [Vim](https://www.vim.org/)
