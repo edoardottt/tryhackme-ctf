@@ -1,6 +1,6 @@
 # GoldenEye
 
-![Bond]()
+![Bond](https://github.com/edoardottt/tryhackme-ctf/blob/main/GoldenEye/goldeneye.jpg)
 
 - First things first, connect to our network and deploy the machine.
 
