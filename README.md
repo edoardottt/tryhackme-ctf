@@ -57,3 +57,5 @@
   - [Xor.pw](http://xor.pw/#)
   - [fcrackzip](https://github.com/hyc/fcrackzip)
   - [Vim](https://www.vim.org/)
+  - [peepdf](https://github.com/jesparza/peepdf)
+  - [vmonkey](https://github.com/decalage2/ViperMonkey/blob/master/vipermonkey/vmonkey.py)
