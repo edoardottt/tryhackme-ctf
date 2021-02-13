@@ -59,3 +59,8 @@
   - [Vim](https://www.vim.org/)
   - [peepdf](https://github.com/jesparza/peepdf)
   - [vmonkey](https://github.com/decalage2/ViperMonkey/blob/master/vipermonkey/vmonkey.py)
+  - [tplmap](https://github.com/epinna/tplmap)
+  - [xsrfprobe](https://github.com/0xInfection/XSRFProbe)
+  - [jwt.io](https://jwt.io/)
+  - [c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker)
+  
