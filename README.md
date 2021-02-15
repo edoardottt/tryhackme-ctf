@@ -63,4 +63,4 @@
   - [xsrfprobe](https://github.com/0xInfection/XSRFProbe)
   - [jwt.io](https://jwt.io/)
   - [c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker)
-  
+  - [wfuzz](https://github.com/xmendez/wfuzz)
