@@ -64,3 +64,4 @@
   - [jwt.io](https://jwt.io/)
   - [c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker)
   - [wfuzz](https://github.com/xmendez/wfuzz)
+  - [kerbrute](https://github.com/ropnop/kerbrute)
