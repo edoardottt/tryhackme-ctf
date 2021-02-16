@@ -65,3 +65,6 @@
   - [c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker)
   - [wfuzz](https://github.com/xmendez/wfuzz)
   - [kerbrute](https://github.com/ropnop/kerbrute)
+  - [impacket](https://github.com/SecureAuthCorp/impacket)
+  - [Rubeus](https://github.com/GhostPack/Rubeus)
+  - [evil-winrm](https://github.com/Hackplayers/evil-winrm)
