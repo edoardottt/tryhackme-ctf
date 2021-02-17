@@ -68,3 +68,6 @@
   - [impacket](https://github.com/SecureAuthCorp/impacket)
   - [Rubeus](https://github.com/GhostPack/Rubeus)
   - [evil-winrm](https://github.com/Hackplayers/evil-winrm)
+  - [ffuf](https://github.com/ffuf/ffuf)
+  - [knock](https://github.com/grongor/knock) (Port Knocking)
+  - [knock](https://github.com/guelfoweb/knock) (Subdomains scanning)
