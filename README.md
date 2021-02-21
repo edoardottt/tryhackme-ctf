@@ -71,3 +71,5 @@
   - [ffuf](https://github.com/ffuf/ffuf)
   - [knock](https://github.com/grongor/knock) (Port Knocking)
   - [knock](https://github.com/guelfoweb/knock) (Subdomains scanning)
+  - [Web Archive](https://web.archive.org/)
+  - [ViewDNS.info](https://viewdns.info/)
