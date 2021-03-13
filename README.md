@@ -2,8 +2,9 @@
 
 ### [tryhackme/edoardottt](https://tryhackme.com/p/edoardottt) (Top 10 of Italy 🇮🇹)
 
-<img src="https://github.com/edoardottt/tryhackme-ctf/blob/main/IMAGES/THMlogo.png" width="70%">
-
+<p style="text-align:center;">
+<img src="https://github.com/edoardottt/tryhackme-ctf/blob/main/IMAGES/THMlogo.png" width="60%">
+</p>
 #### Tools used:
 
   - [CyberChef](https://gchq.github.io/CyberChef/)
