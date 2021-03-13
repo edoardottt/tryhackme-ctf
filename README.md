@@ -2,7 +2,7 @@
 
 ### [tryhackme/edoardottt](https://tryhackme.com/p/edoardottt) (Top 10 of Italy 🇮🇹)
 
-![thmlogo](https://github.com/edoardottt/tryhackme-ctf/blob/main/IMAGES/THMlogo.png)
+<img src="https://github.com/edoardottt/tryhackme-ctf/blob/main/IMAGES/THMlogo.png" width="70%">
 
 #### Tools used:
 
