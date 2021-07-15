@@ -11,6 +11,7 @@
   - [CyberChef](https://gchq.github.io/CyberChef/)
   - [nmap](https://nmap.org/)
   - [scilla](https://github.com/edoardottt/scilla)
+  - [cariddi](https://github.com/edoardottt/cariddi)
   - [pentestmonkey](https://github.com/pentestmonkey)
   - [gobuster](https://github.com/OJ/gobuster)
   - [Burpsuite](https://portswigger.net/burp)
