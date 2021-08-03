@@ -76,3 +76,6 @@
   - [Web Archive](https://web.archive.org/)
   - [ViewDNS.info](https://viewdns.info/)
   - [dirbuster](https://tools.kali.org/web-applications/dirbuster)
+
+
+[edoardoottavianelli.it](https://www.edoardoottavianelli.it) to contact me.
