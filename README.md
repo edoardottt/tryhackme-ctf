@@ -12,6 +12,7 @@
   - [nmap](https://nmap.org/)
   - [scilla](https://github.com/edoardottt/scilla)
   - [cariddi](https://github.com/edoardottt/cariddi)
+  - [lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
   - [pentestmonkey](https://github.com/pentestmonkey)
   - [gobuster](https://github.com/OJ/gobuster)
   - [Burpsuite](https://portswigger.net/burp)
