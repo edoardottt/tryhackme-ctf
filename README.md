@@ -79,4 +79,5 @@
   - [dirbuster](https://tools.kali.org/web-applications/dirbuster)
 
 
+Open an issue if you find an error.  
 [edoardoottavianelli.it](https://www.edoardoottavianelli.it) to contact me.
