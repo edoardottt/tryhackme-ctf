@@ -35,7 +35,7 @@ Connect by ssh to the target.
 - What is the value of local_4h before eax is set to 0?
 
 	- Play with breakpoints and registers
-	- `7`
+	- `6`
 
 
 
