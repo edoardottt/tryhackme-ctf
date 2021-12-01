@@ -2,7 +2,7 @@
 
 - **Deploy your AttackBox (the blue "Start AttackBox" button)** and the tasks machine (green button on this task) if you haven't already. Once both have deployed, open FireFox on the AttackBox and copy/paste the machines IP into the browser search bar.
 
-	// no answer needed
+		no answer needed
 
 - Register for an account, and then login.
 What is the name of the cookie used for authentication?
