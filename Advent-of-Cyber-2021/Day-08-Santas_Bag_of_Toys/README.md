@@ -15,17 +15,17 @@ Open the first transcription log. You can see the commands and output for everyt
 
 - What operating system is Santa's laptop running ("OS Name")?
 
-- `********* ******* ** ***`
+	- `********* ******* ** ***`
 
 Review each transcription log to get an idea for what activity was performed on the laptop just after it went missing. In the "second" transcription log, it seems as if the perpetrator created a backdoor user account!
 
 - What was the password set for the new "backdoor" account?
 
-- `********************`
+	- `********************`
 
 - In one of the transcription logs,  the bad actor interacts with the target under the new backdoor user account, and copies a unique file to the Desktop. Before it is copied to the Desktop, what is the full path of the original file? 
 
-- `*:*****************************************************.***`
+	- `*:*****************************************************.***`
 
 The actor uses a Living Off The Land binary (LOLbin) to encode this file, and then verifies it succeeded by viewing the output file. What is the name of this LOLbin?
 
@@ -39,21 +39,21 @@ Under the Desktop folder, there seems to be a suspicious folder named "SantaRat"
 
 - Drill down into the folders and see if you can find anything that might indicate how we could better track down what this SantaRat really is. What specific folder name clues us in that this might be publicly accessible software hosted on a code-sharing platform?
 
-- `******`
+	- `******`
 
 Additionally, there is a unique folder named "Bag of Toys" on the Desktop! This must be where Santa prepares his collection of toys, and this is certainly sensitive data that the actor could have compromised. What is the name of the file found in this folder? 
 
 - What is the name of the user that owns the SantaRat repository?
 
-- `**********`
+	- `**********`
 
 - Explore the other repositories that this user owns. What is the name of the repository that seems especially pertinent to our investigation?
 
-- `*********************`
+	- `*********************`
 
 - Read the information presented in this repository. It seems as if the actor has, in fact, compromised and tampered with Santa's bag of toys! You can review the activity in the transcription logs. It looks as if the actor installed a special utility to collect and eventually exfiltrate the bag of toys. What is the name of the executable that installed a unique utility the actor used to collect the bag of toys?
 
-- `*****************.***`
+	- `*****************.***`
 
 In the last transcription log, you can see the activity that this actor used to tamper with Santa's bag of toys! It looks as if they collected the original contents with a UHA archive. A UHA archive is similar to a ZIP or RAR archive, but faster and with better compression rates. It is very rare to see, but it looks the Grinch Enterprises are pulling out all the tricks!
 
@@ -66,7 +66,7 @@ We know that the actor seemingly collected the original bag of toys. Maybe there
 
 - What is the password to the original bag_of_toys.uha archive? (You do not need to perform any password-cracking or bruteforce attempts)
 
-- `***************************`
+	- `***************************`
 
 McSkidy was able to download and save a copy of the bag_of_toys.uha archive, and you have it accessible on the Desktop of the Windows analysis machine. After uncovering the password from the actor's GitHub repository, you have everything you need to restore Santa's original bag of toys!! 
 
@@ -76,4 +76,4 @@ With that, you have successfully recovered the original contents of Santa's Bag 
 
 - How many original files were present in Santa's Bag of Toys?
 
-- `***`
+	- `***`
