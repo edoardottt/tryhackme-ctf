@@ -1,6 +1,6 @@
 ### Notes, code, PoC, solutions, writeups, scribbles, drafts....
 
-### [tryhackme/edoardottt](https://tryhackme.com/p/edoardottt) (Italian Top 10 🇮🇹)
+### [tryhackme/edoardottt](https://tryhackme.com/p/edoardottt) (Top 1%)
 
 <p align="center">
 <img src="https://github.com/edoardottt/tryhackme-ctf/blob/main/IMAGES/THMlogo.png" width="60%">
