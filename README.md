@@ -77,6 +77,7 @@
   - [Web Archive](https://web.archive.org/)
   - [ViewDNS.info](https://viewdns.info/)
   - [dirbuster](https://tools.kali.org/web-applications/dirbuster)
+  - [yarGen](https://github.com/Neo23x0/yarGen)
 
 -----------------------------------
 
