@@ -1,6 +1,9 @@
-### Notes, code, PoC, solutions, writeups, scribbles, drafts...
-
-### [tryhackme/edoardottt](https://tryhackme.com/p/edoardottt) (Top 1%)
+<h2 align="center">
+  <b>TryHackMe notes, code, PoC, solutions, writeups, scribbles, drafts...</b>
+</h2>
+<h3 align="center">
+  <b><a href="https://tryhackme.com/p/edoardottt">tryhackme/edoardottt</a> (Top 1%)</b>
+</h3>
 
 <p align="center">
 <img src="https://github.com/edoardottt/tryhackme-ctf/blob/main/IMAGES/THMlogo.png" width="60%">
