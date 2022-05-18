@@ -82,6 +82,10 @@
   - [dirbuster](https://tools.kali.org/web-applications/dirbuster)
   - [yarGen](https://github.com/Neo23x0/yarGen)
 
+Contributing 🤝
+------
+If you want to contribute to this project, you can start opening an [issue](https://github.com/edoardottt/tryhackme-ctf/issues).
+
 -----------------------------------
 
 Open an issue if you find an error.  
