@@ -8,7 +8,7 @@
 <h3 align="center">
   <b><a href="https://tryhackme.com/p/edoardottt">tryhackme/edoardottt</a> (Top 1%)</b>
   <br>
-  <img src="https://tryhackme-badges.s3.amazonaws.com/edoardottt.png" alt="TryHackMe">
+  <a href="https://tryhackme.com/p/edoardottt"> <img src="https://tryhackme-badges.s3.amazonaws.com/edoardottt.png" alt="TryHackMe"></a>
 </h3>
 
 #### Tools used:
