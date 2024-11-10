@@ -91,4 +91,4 @@ If you want to contribute to this project, you can start opening an [issue](http
 -----------------------------------
 
 Open an issue if you find an error.  
-[edoardoottavianelli.it](https://www.edoardoottavianelli.it) to contact me.
+[edoardottt.com](https://edoardottt.com/) to contact me.
